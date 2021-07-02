@@ -1,0 +1,115 @@
+body{
+	background-color:#FDF5E6;
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+#main{
+	background-color:#FFE4E1;
+	height:100px;
+	margin:0px;
+	padding:0px;
+}
+.title{
+	display:inline-block;
+}
+.title+div{
+	margin-left:775px;
+	margin-top:41px;
+}
+.left{
+	position:absolute;
+	left:354px;
+	top:54px;
+	font-family:"Comics San SM";
+	text-transform:uppercase;
+}
+#colors2{
+	color:#01d28e;;
+}
+span
+{
+	color:#01d28e;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+	display:inline;
+	word-spacing:30px;
+	font-family:"Comics San SM";
+}
+a{
+	text-decoration:none;
+	font-size:20px;
+	color:#000;
+}
+li a:hover:not(.active),button:hover{
+	color:#01d28e;
+}
+button{
+	margin-top:0px;
+	background-color:transparent;
+	color:#FFF;
+	padding:10px;
+	border:0px solid white;
+	cursor:pointer;
+	font-size:20px;
+	font-family:"Comics San SM";
+	color:#000;
+}
+img
+{
+    width: 95%;
+    height: 95%;
+    opacity: 0.8;
+}
+
+img.images:hover
+{
+    transform:scaleX(-1) ;
+    opacity:1.0;
+}
+.logo
+{
+    padding: 1px;
+    text-align: center;
+    width: 150px;
+	margin-top:41px;
+    margin-left: 45%;
+}
+.Readers
+{
+    padding: 10px;
+	margin-left:150px;
+}
+.container{
+   // width: 1170px;
+    margin: auto;
+    padding: 10px;
+   
+}
+
+.Readers .container div{
+    float: left;
+    width: 30%;
+    padding: 6px;
+    margin-top: 15px;
+
+}
+.Readers .container div a header h3{
+    color: #050505;
+    font-size: 25px;
+}
+h1
+{
+    text-align: center;
+    clear: both;
+}
+figure
+{
+    margin-top:5px ;
+    margin-bottom: 5px;
+}

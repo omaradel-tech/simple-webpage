@@ -1,0 +1,156 @@
+*
+{
+  margin: 0px;
+  padding:0px;
+}
+body{
+	width:100%;
+	font-family:"Comics San SM";
+}
+#header{
+	background-image:url("../images/back_g.jpg");
+	width:100%;
+	height:860px;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.title{
+	display:inline-block;
+}
+.title+div{
+	margin-left:775px;
+	margin-top:41px;
+}
+.left{
+	position:absolute;
+	top:46px;
+	left:354px;
+	font-family:"Comics San SM";
+	text-transform:uppercase;
+}
+button{
+	margin-top:0px;
+	background-color:transparent;
+	color:#FFF;
+	padding:10px;
+	border:0px solid white;
+	cursor:pointer;
+	font-size:20px;
+	font-family:"Comics San SM";
+}
+
+span{
+	color:#01d28e;
+}
+ul{
+	margin:0px;
+	padding:0px;
+}
+#colors2{
+	color:#01d28e;;
+}
+li{
+	display:inline;
+	word-spacing:30px;
+	font-family:"Comics San SM";
+}
+a{
+	text-decoration:none;
+	font-size:20px;
+	color:#FFF;
+	background-color:transparent;
+	text-decoration:none;
+}
+li a:hover,button:hover{
+	color:#01d28e;
+	cursor:pointer;
+}
+#headercenter{
+	text-align:center;
+	position:absolute;
+	color:#FFF;
+	top:224px;
+	left:-200px;
+	font-size:25px;
+	width:505px;
+	font-family:"Comics San SM";
+	line-height:40px;
+}
+h1 
+{
+	font-size: 50px;
+	color: #FFF;
+	font-style: inherit;
+	padding: 0px 70px;
+	margin-bottom: 0px;
+	text-shadow: 10px;
+}
+.Text
+{
+	text-align: center;
+	font-family: cursive;
+	font-size: 43px;
+	color:#fff;
+	margin-top: 18%;
+}
+.center_cont
+{
+	height: 60%;
+	border: 2px solid aqua;
+	margin: -1px 0px 0px 0px;
+	background-color: #01d28e;
+}
+#center_cont_logo
+{
+	height: 100%;
+	width: 30%;
+	float: left;
+}
+#center_cont_caption
+{
+	margin: 2% 0 0 33%;   
+}
+h4
+{
+	font-size: 30px;
+	color: #655b50;
+	text-align:center;
+	margin-right:121px;
+	margin-top:27px;
+}
+.footer_cont
+{
+	width: 90%;
+	height: 80%;
+	color: black;
+	margin: 2% 5%;
+}
+.car_pic
+{
+	width: 30%;
+	height: 50%;
+	float: left;
+	margin: 4px 20px -10px 11px;
+
+}
+.car
+{
+	width: 400px;
+	height: 200px;
+	margin: 10px 26px -20px 5px;
+}
+figure
+{
+	width: 100%;
+	margin: 0px;
+}
+figcaption
+{
+	margin: 0px 20px 12px;
+}
+.car:hover
+{
+	transition: .3s all;
+	width: 420px;
+	height: 220px;
+}

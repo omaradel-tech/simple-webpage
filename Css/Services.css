@@ -1,0 +1,80 @@
+body{
+    background-image: url("../images/about.jpg");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.navbar{
+    background-color: rgba(63, 61, 58,0.8);
+}
+.navbar ul{
+    list-style: none;
+    padding:0;
+    background-color: transparent;
+    overflow: hidden;
+    margin-right:10%;
+}
+.navbar ul li {
+    float:right;
+}
+.navbar ul li a{
+    display: block;
+    text-decoration: none;
+    color:#FFF;
+    padding:20px 25px 15px 25px;
+    font-size: 17px;
+   font-family: "Comic Sans MS";
+   font-weight: bold;
+}
+.navbar ul li .current:hover:not(.active),button:hover{
+    background-color:#01d28e;
+}
+.active{
+    background-color:#01d28e ;
+}
+.home{
+   position: absolute;
+   left:25%;
+}
+button{
+    display: block;
+    padding:21px 20px 19px 25px;
+    font-family: "Comic Sans MS";
+    border:0px none ;
+    color:#FFF;
+    background-color: transparent;
+    cursor: pointer;
+}
+span{
+    color:#01d28e;
+}
+/*end od navbar*/
+.center{
+    clear:both;
+    width:100%;
+    overflow: hidden;
+    text-align: center;
+}
+.center div{
+    float:left;
+    position: relative;
+    width:450px;
+    height:400px;
+    background-color: #FFF;
+    border:1px solid seashell;
+    margin-left: 22px;
+    opacity: 0.8;
+}
+img{
+    width:400px;
+    height:200px;
+    opacity:0.8;
+}
+img:hover{
+    opacity:1.1;
+    cursor: pointer;
+}

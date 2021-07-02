@@ -1,0 +1,124 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+html{
+	background-color:#A9A9A9;
+	font-family:"Comics San SM";
+}
+#title{
+	background-image:url("../images/back_g.jpg");
+	height:700px;
+	background-repeat:no-repeat;
+	width:100%;
+	background-size:cover;
+	font-family:"Comics San SM";
+}
+.titleR
+{
+	display:inline-block;
+}
+
+.titleR +div
+{
+	margin-left:775px;
+	margin-top:41px;
+}
+#colors3{
+	color:#01d28e;;
+}
+.list
+{
+	position:absolute;
+	left:354px;
+	top:46px;
+	font-family:"Comics San SM";
+	text-transform:uppercase;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+	display:inline;
+	word-spacing:30px;
+	font-family:"Comics San SM";
+}
+li a:hover {
+  color: white;
+}
+
+a{
+	text-decoration:none;
+	font-size:20px;
+	color:#FFF;
+	background-color:transparent;
+	font-family:"Comics San SM";
+}
+span
+{
+	color:#01d28e;
+}
+ li a:hover:not(.active){
+	color:#01d28e;
+	cursor:pointer;
+}
+li a.active{
+	color:#01d28e;
+}
+.owners{
+	background-color:#C0C0C0;
+	width:356px;
+ 	height:230px;
+	float:left;
+	//text-align:center;
+	margin-left:17px;
+	border:2px solid #2F4F4F;
+	font-family:"Comic Sans MS";
+	
+}
+h2{
+	padding-top:8px;
+	padding-bottom:10px;
+	text-align:center;
+	font-family:"Comic Sans MS";
+}
+label{
+	padding:0px 0px 5px 5px;
+}
+p{
+	padding:5px 0px 0px 5px;
+}
+#centercenter{
+	color:#FFF;
+	width:600px;
+	position:relative;
+	top:180px;
+	font-size:25px;
+	margin-left:492px;
+	line-height:40px;
+	font-family:"Comic Sans MS";
+}
+.center1{
+	text-align:center;
+}
+#headercenter{
+	position:relative;
+	color:#FFF;
+	top:224px;
+	left:528px;
+	font-size:25px;
+	width:505px;
+	font-family:"Comics San SM";
+	line-height:40px;
+}
+#button{
+	margin-top:0px;
+	background-color:transparent;
+	color:#FFF;
+	padding:10px;
+	border:0px none #FFF;
+	cursor:pointer;
+	font-size:20px;
+	font-family:"Comics San SM";
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="../Css/Contactcss.css">
+    <link rel="stylesheet" href="../Css/all.min.css">
+</head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <button id="button" onclick="changeimage()" id="colors"> <i class="fas fa-exchange-alt"></i> Change Image</button>
+                </li>
+                <li> <button onclick="LogOut()"><i class="fas fa-sign-out-alt"></i> LogOut</button></li>
+                <li> 
+                    <a href="Cars.html" class="current"> <i class="fas fa-car"></i> Cars</a>
+                </li>
+                <li> <a href="Service.html" class="current"> <i class="fab fa-servicestack"></i> Service</a></li>
+                <li> <a href="Contact.html" class="active current">Contact Us</a></li>
+                <li> <a href="About.html" class="current">About</a></li>
+                <li> <a href="home.html" class="current"> <i class="fas fa-home"></i> Home</a></li>
+                <li> <a href="home.html" class="home"> <i class="fas fa-car"></i> Car<span>Show</span></a> </li>
+
+                
+            </ul>
+
+        </nav>
+        <section>
+            <div class="Center">
+                <div>
+                    <label> <i class="fas fa-map-marked-alt"></i>Address:</label>
+                    <br>
+                    <a href="https://www.google.com/maps/place/El-Khalifa+El-Maamoun,+El-Qobba+Bridge,+Al+Waili,+Cairo+Governorate/@30.0808629,31.2903809,17z/data=!3m1!4b1!4m5!3m4!1s0x14583fc92ec6c8ab:0x2e956006a7111ea0!8m2!3d30.0808583!4d31.2925696" target="_blank">El khalifa Elmamoun Street, Al Waily,Cairo,Egypt</a>
+                </div>
+                <div >
+                    <i class="fas fa-phone-alt"></i>
+                    <label>Phone:</label>
+                    <br>
+                    <a href="#" class="link">+0123456789</a>
+                </div>
+                <div>
+                    <i class="far fa-envelope"></i>
+                    <label>Email:</label>
+                    <br>
+                    <a href="#" class="link">Strikers@FCIS.com</a>
+                    </div>
+            </div>
+            <div class="Center">
+                <form>
+                    <input required type="text" id="name" name= "name" placeholder="Enter your name">
+                    <input  required type="email" id="email" name= "email" placeholder="Enter your E-mail">
+                    <input required type="text" id="subject" name="subject" placeholder="Subject">
+                    <textarea required name="message" cols="45" rows="10" placeholder="Message"></textarea>
+                    <input type="submit"  name="SendMessage" onclick="contact()" vlaue="submit" >
+
+                </form>
+            </div>
+        </section>
+    <script src="../js/contact.js"> </script>
+    <script src="../js/Logout.js"> </script>
+    </body>
+</html>
